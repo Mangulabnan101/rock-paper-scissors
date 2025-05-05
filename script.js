@@ -17,7 +17,6 @@ function getComputerChoice() {
 function getHumanChoice() { 
   let getChoice = prompt("Enter your choice:(rock, paper, scissors)");
   return getChoice.toLowerCase();
-  
 }
 let humanScore = 0;
 let computerScore = 0;
@@ -143,11 +142,10 @@ function playGame() {
       break;
       default:
         console.log("game ended");
-        return;
+      return;
     }
    
   }
 
 }
-
 playGame();
